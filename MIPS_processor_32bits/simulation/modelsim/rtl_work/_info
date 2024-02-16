@@ -1,0 +1,683 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/simulation/modelsim
+vadder
+Z1 !s110 1705697310
+!i10b 1
+!s100 :@B0^L]V3gZf_3iC`G^fU0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1;VEMO@V?2Pd1<UM@D0D71
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1702242247
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v
+!i122 15
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1705697310.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits
+Z8 tCvgOpt 0
+vadder_16bits
+R1
+!i10b 1
+!s100 ZPN]1aCdPk8m;jJ[nG=C93
+R2
+I?OM7aknWO:]FdVjfF^[R90
+R3
+R0
+w1702066317
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v
+!i122 14
+L0 1 35
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v|
+!i113 1
+R6
+R7
+R8
+vadder_4bits
+Z9 !s110 1705697309
+!i10b 1
+!s100 Y7bHT;j6N3ImYbZli9Y`@0
+R2
+IjVd1[koLNPDNiB?0e]UCG1
+R3
+R0
+w1702064034
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v
+!i122 13
+L0 1 48
+R4
+r1
+!s85 0
+31
+Z10 !s108 1705697309.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v|
+!i113 1
+R6
+R7
+R8
+valu
+R9
+!i10b 1
+!s100 Ca?Tfjn<4>Q^_c<88Jk=J3
+R2
+Ii>C<H@FkGUIR>A_W8d94:0
+R3
+R0
+w1705694322
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v
+!i122 12
+L0 1 66
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v|
+!i113 1
+R6
+R7
+R8
+valu_control
+R1
+!i10b 1
+!s100 ?z;0@3aK_k2ZomMl3kbT11
+R2
+Ii@fbF:P:Z_H=jd9APzi>:0
+R3
+R0
+w1705099978
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v
+!i122 17
+L0 2 55
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v|
+!i113 1
+R6
+R7
+R8
+vand_32bits
+R9
+!i10b 1
+!s100 ?QDBT?QPA>=MhYb5CWMNY0
+R2
+I@bFJOk<h=hkC<EgaLG7lb1
+R3
+R0
+w1702246813
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v
+!i122 11
+Z11 L0 1 12
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v|
+!i113 1
+R6
+R7
+R8
+vand_4bits
+R9
+!i10b 1
+!s100 hCQcKET]i^ILc`ZAcGZfY1
+R2
+I;Ak>h4F^ad>O>e`5foS_c0
+R3
+R0
+w1701950005
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v
+!i122 10
+Z12 L0 1 8
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v|
+!i113 1
+R6
+R7
+R8
+vcontrol_unit
+R1
+!i10b 1
+!s100 ]HSL5EAA5N^F5]B8mV0hM1
+R2
+I8`2TE6jQkkFi>;_X5cg0T1
+R3
+R0
+w1705676189
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v
+!i122 18
+L0 1 91
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v|
+!i113 1
+R6
+R7
+R8
+vinstruction_block
+Z13 !s110 1705697311
+!i10b 1
+!s100 ]Z_e8CEzJznl<mHXS12VX1
+R2
+I_Ri;j05l4e8[SDH?5DCV@2
+R3
+R0
+w1705677396
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v
+!i122 24
+Z14 L0 1 18
+R4
+r1
+!s85 0
+31
+Z15 !s108 1705697311.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v|
+!i113 1
+R6
+R7
+R8
+vless_than
+R9
+!i10b 1
+!s100 8L?HXl_RJ2Y@Fk[gQC?gI1
+R2
+Iikb=>adUiKKSTS3ad=MTn3
+R3
+R0
+w1702250366
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v
+!i122 9
+L0 1 15
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v|
+!i113 1
+R6
+R7
+R8
+vmemory_block
+Z16 !s110 1705697312
+!i10b 1
+!s100 3?amJ`bIDgdYS>F<UaMiC2
+R2
+IS?6jYo:HbL409XAfGQ>1X1
+R3
+R0
+w1705687852
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v
+!i122 26
+L0 1 51
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v|
+!i113 1
+R6
+R7
+R8
+vmips
+R1
+!i10b 1
+!s100 >F[^zdTfNf65:nEg^91NT2
+R2
+I3SCd];0@dj7ZcY4YG@o=D2
+R3
+R0
+w1705697006
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v
+!i122 16
+L0 3 153
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v|
+!i113 1
+R6
+R7
+R8
+vmux2x1_32bit
+R13
+!i10b 1
+!s100 46IU`gN[K7Z<EDF=A<mAF1
+R2
+I`968299AbTnS>OUOnKaDd2
+R3
+R0
+w1705599989
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v
+!i122 21
+L0 1 141
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v|
+!i113 1
+R6
+R7
+R8
+vmux2x1_5bit
+R13
+!i10b 1
+!s100 ngAQ`Jz`67@>VgQ5;CY2j3
+R2
+IDW2cXXeNnA3L>MUIAOI=<3
+R3
+R0
+w1705600448
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v
+!i122 22
+L0 1 34
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v|
+!i113 1
+R6
+R7
+R8
+vmux8to1
+R13
+!i10b 1
+!s100 P^U_C2d1Kf<5GhgLB3jJl1
+R2
+IGz4S7RDBS?5FegPfe8n[;3
+R3
+R0
+w1705657624
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v
+!i122 23
+L0 3 17
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v|
+!i113 1
+R6
+R7
+R8
+vmy_testbench
+R16
+!i10b 1
+!s100 eQQIK:m]TkdoB:^kR8GM03
+R2
+IXAU@E6o40^[5G9W3<M1800
+R3
+R0
+w1705696451
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v
+!i122 27
+L0 3 25
+R4
+r1
+!s85 0
+31
+!s108 1705697312.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v|
+!i113 1
+R6
+R7
+R8
+vmy_xor
+Z17 !s110 1705697308
+!i10b 1
+!s100 gI:@W?2Kk:G6mFXnR[QVU3
+R2
+I5zE@N:K[U8nNRWnzAZ;WP0
+R3
+R0
+w1701978328
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v
+!i122 2
+L0 1 7
+R4
+r1
+!s85 0
+31
+Z18 !s108 1705697308.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v|
+!i113 1
+R6
+R7
+R8
+vnor_32bits
+R9
+!i10b 1
+!s100 eI8oePiBGn2Ia[gF6?b6k0
+R2
+IB<lQ8Y;J=Icad;d4SfaPm3
+R3
+R0
+w1702251092
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v
+!i122 8
+R11
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v|
+!i113 1
+R6
+R7
+R8
+vnor_4bits
+R9
+!i10b 1
+!s100 lNoodeHG>c2Fn4Ejzg?<?1
+R2
+I;<jkV[_oEnCZTe<zJND;o3
+R3
+R0
+w1702246580
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v
+!i122 7
+R12
+R4
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v|
+!i113 1
+R6
+R7
+R8
+vnot_32bits
+R9
+!i10b 1
+!s100 8D7?RN9ga1^e?8]^WA>>M1
+R2
+INh]]`^5ioWYi8KFm9E0W80
+R3
+R0
+w1702246808
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v
+!i122 6
+L0 1 36
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v|
+!i113 1
+R6
+R7
+R8
+vor_32bits
+R17
+!i10b 1
+!s100 @HSOCVfIKZX:^n8E:iJk>2
+R2
+I649jT[ffSo:i?m=l]e1g=0
+R3
+R0
+w1702246817
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v
+!i122 5
+R11
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v|
+!i113 1
+R6
+R7
+R8
+vor_4bits
+R17
+!i10b 1
+!s100 anemUnSKaR8[EcMhHY17M2
+R2
+IG4bCX@l8la0K`_i;24WXk0
+R3
+R0
+w1701957213
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v
+!i122 4
+R12
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v|
+!i113 1
+R6
+R7
+R8
+vregister_block
+R13
+!i10b 1
+!s100 =9[h[1DHdM7zGMF9L[^<c2
+R2
+I;03<7coViz1k^RIFl1zMk2
+R3
+R0
+w1705688248
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v
+!i122 25
+L0 3 38
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v|
+!i113 1
+R6
+R7
+R8
+vshift_left_2
+R13
+!i10b 1
+!s100 l164nF_EGI@ahBh?MT;M71
+R2
+I`iCf:^LQLeGlzC[;mQNPB1
+R3
+R0
+w1705260730
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v
+!i122 20
+R14
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v|
+!i113 1
+R6
+R7
+R8
+vsign_extend
+R1
+!i10b 1
+!s100 j^E[LA=5M;m5_;QEMla`H0
+R2
+I?_k[9h1ZL1o<k15<HPo2B3
+R3
+R0
+w1705260664
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v
+!i122 19
+L0 1 33
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v|
+!i113 1
+R6
+R7
+R8
+vsub
+R17
+!i10b 1
+!s100 mWnHNG6GH;3B?WlF89_k13
+R2
+IWNXC0icSmh@MUZ<=0aX`M3
+R3
+R0
+w1702246233
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v
+!i122 3
+L0 1 13
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v|
+!i113 1
+R6
+R7
+R8
+vxor_32bits
+R17
+!i10b 1
+!s100 ge2=U>jhOiUI2JG;JkVK=2
+R2
+I77jlA]Mb0ozIa6E7UoUR41
+R3
+R0
+w1702246824
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v
+!i122 1
+R11
+R4
+r1
+!s85 0
+31
+R18
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v|
+!i113 1
+R6
+R7
+R8
+vxor_4bits
+!s110 1705697307
+!i10b 1
+!s100 QS8`L6KSZk1U_;A>m?QPY1
+R2
+I[kc;R=`QJdj:Wl8U6g7Xd0
+R3
+R0
+w1701956536
+8C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v
+FC:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v
+!i122 0
+R12
+R4
+r1
+!s85 0
+31
+!s108 1705697307.000000
+!s107 C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits|C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,58 @@
+module alu (output[31:0] result, input clk, input reset, input [31:0] A, input [31:0] B, input[2:0] ALUop);
+
+reg cin = 0;
+wire cout_adder, cout_sub;
+
+wire[31:0] and_result;
+// module and_32bits (output[31:0] result  ,input [31:0] in1,  input [31:0] in2);
+and_32bits alu_and (and_result, A , B);
+
+wire[31:0] or_result;
+// module or_32bits (output[31:0] result  ,input [31:0] in1,  input [31:0] in2);
+or_32bits alu_or (or_result, A, B);
+
+wire[31:0] xor_result;
+// module xor_32bits (output[31:0] result  ,input [31:0] in1,  input [31:0] in2);
+xor_32bits alu_xor(xor_result, A, B);
+
+wire[31:0] nor_result;
+// module nor_32bits (output[31:0] result  ,input [31:0] in1,  input [31:0] in2);
+nor_32bits alu_nor(nor_result, A, B);
+
+// module less_than (output res, input [31:0] a, input [31:0] b);
+wire alu_lt_res; // Declare a 1-bit wire
+less_than alu_lt(alu_lt_res, A, B); // Use the 1-bit wire here
+
+wire [31:0] lessThan_result = {31'b0, alu_lt_res}; // Zero-extend the 1-bit result
+
+wire[31:0] add_result;
+// module adder (input [31:0] a, input [31:0] b, input cin, output [31:0] sum, output cout);
+adder alu_adder(A, B, cin, add_result, cout_adder);
+
+wire[31:0] sub_result;
+// module sub (input signed [31:0] a, input signed [31:0] b, output signed [31:0] out, output cout);
+sub alu_sub(A, B, sub_result, cout_sub);
+
+wire[31:0] mod_result;
+// module mod (input [31:0] a, input [31:0] b, input reset, input clk, output [31:0] result);
+mod alu_mod(A, B, reset, clk, mod_result);
+
+
+
+mux8to1 mux(.result(result), .in0(and_result), .in1(or_result),
+.in2(xor_result), .in3(nor_result), .in4(lessThan_result),
+.in5(add_result), .in6(sub_result), .in7(mod_result), .sel(ALUop));
+
+/*
+	AND 000 
+	OR 001 
+	XOR 010 
+	NOR 011 
+	LESS THAN 100 
+	ADD 101 
+	SUB 110 
+	MOD 111 
+*/
+
+
+endmodule

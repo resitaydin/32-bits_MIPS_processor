@@ -1,0 +1,41 @@
+
+module alu_control (
+o output reg [2:0] alu_ctr,
+o input [5:0] function_code,
+o input [2:0] ALUop); 
+);
+
+wire [2:0] alu_ctr_non_func;
+wire [2:0] alu_ctr_func;
+
+
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+or or1(alu_ctr_non_func, ALUop, 0'b000);
+
+
+
+	
+
+
+
+enmodule
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

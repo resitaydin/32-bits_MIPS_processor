@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at adder_4bits.v(1): object "P" differs only in case from object "p" in the same scope File: C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v Line: 1
+Info (10281): Verilog HDL Declaration information at adder_4bits.v(1): object "G" differs only in case from object "g" in the same scope File: C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v Line: 1

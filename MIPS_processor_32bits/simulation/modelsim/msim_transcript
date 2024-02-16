@@ -1,0 +1,375 @@
+# Reading pref.tcl
+# do mips_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:27 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_4bits.v 
+# -- Compiling module xor_4bits
+# 
+# Top level modules:
+# 	xor_4bits
+# End time: 23:48:27 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_32bits.v 
+# -- Compiling module xor_32bits
+# 
+# Top level modules:
+# 	xor_32bits
+# End time: 23:48:28 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/xor_1bit.v 
+# -- Compiling module my_xor
+# 
+# Top level modules:
+# 	my_xor
+# End time: 23:48:28 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sub.v 
+# -- Compiling module sub
+# 
+# Top level modules:
+# 	sub
+# End time: 23:48:28 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_4bits.v 
+# -- Compiling module or_4bits
+# 
+# Top level modules:
+# 	or_4bits
+# End time: 23:48:28 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/or_32bits.v 
+# -- Compiling module or_32bits
+# 
+# Top level modules:
+# 	or_32bits
+# End time: 23:48:28 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:28 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/not_32bits.v 
+# -- Compiling module not_32bits
+# 
+# Top level modules:
+# 	not_32bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_4bits.v 
+# -- Compiling module nor_4bits
+# 
+# Top level modules:
+# 	nor_4bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/nor_32bits.v 
+# -- Compiling module nor_32bits
+# 
+# Top level modules:
+# 	nor_32bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/less_than.v 
+# -- Compiling module less_than
+# 
+# Top level modules:
+# 	less_than
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_4bits.v 
+# -- Compiling module and_4bits
+# 
+# Top level modules:
+# 	and_4bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/and_32bits.v 
+# -- Compiling module and_32bits
+# 
+# Top level modules:
+# 	and_32bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:29 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_4bits.v 
+# -- Compiling module adder_4bits
+# 
+# Top level modules:
+# 	adder_4bits
+# End time: 23:48:29 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder_16bits.v 
+# -- Compiling module adder_16bits
+# 
+# Top level modules:
+# 	adder_16bits
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/adder.v 
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mips.v 
+# -- Compiling module mips
+# 
+# Top level modules:
+# 	mips
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/alu_control.v 
+# -- Compiling module alu_control
+# 
+# Top level modules:
+# 	alu_control
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/control_unit.v 
+# -- Compiling module control_unit
+# 
+# Top level modules:
+# 	control_unit
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/sign_extend.v 
+# -- Compiling module sign_extend
+# 
+# Top level modules:
+# 	sign_extend
+# End time: 23:48:30 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:30 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/shift_left_2.v 
+# -- Compiling module shift_left_2
+# 
+# Top level modules:
+# 	shift_left_2
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_32bit.v 
+# -- Compiling module mux2x1_32bit
+# 
+# Top level modules:
+# 	mux2x1_32bit
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux2x1_5bit.v 
+# -- Compiling module mux2x1_5bit
+# 
+# Top level modules:
+# 	mux2x1_5bit
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/mux8to1.v 
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux8to1
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/instruction_block.v 
+# -- Compiling module instruction_block
+# 
+# Top level modules:
+# 	instruction_block
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/register_block.v 
+# -- Compiling module register_block
+# 
+# Top level modules:
+# 	register_block
+# End time: 23:48:31 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:31 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/memory_block.v 
+# -- Compiling module memory_block
+# 
+# Top level modules:
+# 	memory_block
+# End time: 23:48:32 on Jan 19,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits {C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:48:32 on Jan 19,2024
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits" C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v 
+# -- Compiling module my_testbench
+# 
+# Top level modules:
+# 	my_testbench
+# End time: 23:48:32 on Jan 19,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  my_testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" my_testbench 
+# Start time: 23:48:32 on Jan 19,2024
+# Loading work.my_testbench
+# Loading work.mips
+# Loading work.instruction_block
+# Loading work.control_unit
+# Loading work.mux2x1_5bit
+# Loading work.register_block
+# Loading work.sign_extend
+# Loading work.adder
+# Loading work.adder_16bits
+# Loading work.adder_4bits
+# Loading work.xor_4bits
+# Loading work.my_xor
+# Loading work.and_4bits
+# Loading work.shift_left_2
+# Loading work.mux2x1_32bit
+# Loading work.alu_control
+# Loading work.alu
+# Loading work.and_32bits
+# Loading work.or_32bits
+# Loading work.or_4bits
+# Loading work.xor_32bits
+# Loading work.nor_32bits
+# Loading work.nor_4bits
+# Loading work.less_than
+# Loading work.sub
+# Loading work.not_32bits
+# Loading work.mux8to1
+# Loading work.memory_block
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# instruction in block: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# mux result: 00000000000000000000000000000000
+# pc:         0 -> instruction 10001100010100100000000000000100
+# alu result:          0
+# read_data1: 00000000000000000000000000000000
+# beq: 1
+# mux4_result:         20
+# zero_or_branch: 1
+# aluOP: 110
+# regwrite: 0
+# memRead: memRead: 0
+# memory: read_data: 00000000000000000000000000000000
+# instruction in block: 10001100010100100000000000000100
+# mux result: 00000000000000000000000001100100
+# pc:        20 -> instruction 00001000010001100000000001100100
+# alu result:        100
+# read_data1: 00000000000000000000000000000000
+# beq: 0
+# mux4_result:         24
+# zero_or_branch: 0
+# aluOP: 101
+# regwrite: 1
+# memRead: memRead: 0
+# memory: read_data: 00000000000000000000000000000000
+# instruction in block: 00001000010001100000000001100100
+# mux result: 00000000000000000000000000000000
+# pc:        24 -> instruction xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# alu result:          0
+# read_data1: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# beq: x
+# mux4_result:          X
+# zero_or_branch: x
+# aluOP: xxx
+# regwrite: x
+# memRead: memRead: x
+# memory: read_data: 00000000000000000000000000000000
+# instruction in block: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# ** Note: $finish    : C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v(24)
+#    Time: 62 ns  Iteration: 0  Instance: /my_testbench
+# 1
+# Break in Module my_testbench at C:/Users/aydin/OneDrive/Desktop/MIPS_processor_32bits/my_testbench.v line 24
+# End time: 23:52:12 on Jan 19,2024, Elapsed time: 0:03:40
+# Errors: 0, Warnings: 0
