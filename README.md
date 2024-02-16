@@ -1,6 +1,6 @@
 # 32-Bit MIPS Processor Project
 
-This project presents a structural Verilog implementation of a 32-bit MIPS processor using only structural Verilog HDL.
+This project presents a structural Verilog implementation of a 32-bit single cycle MIPS processor using only structural Verilog HDL.
 The project integrates the ALU design from a previous project and manages data through instructions.mem, registers.mem, and memory.mem.
 
 # Simulation Files
